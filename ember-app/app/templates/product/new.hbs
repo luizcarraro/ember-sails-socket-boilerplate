@@ -1,0 +1,7 @@
+<form {{action 'save' on='submit'}}>
+  <label for="title">Title</label>
+  {{input id='title' placeholder='Enter title' value=title}}
+  <label for="price">Price</label>
+  {{input id='price' placeholder='Enter price' value=price}}
+  <button type="submit" {{ action 'save' }}>Save</button>
+</form>

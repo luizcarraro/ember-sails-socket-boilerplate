@@ -1,0 +1,5 @@
+<h3>Users: </h3>
+
+{{#each model as |user|}}
+<p> User: {{user.name}} {{user.auth.email}} {{user.auth.password}}</p> 
+{{/each}}
